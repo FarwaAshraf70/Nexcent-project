@@ -1,0 +1,24 @@
+{
+  "name": "nexcent",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000N\u0000e\u0000x\u0000c\u0000e\u0000n\u0000t\u0000T\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FarwaAshraf70/Nexcent-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FarwaAshraf70/Nexcent-project/issues"
+  },
+  "homepage": "https://github.com/FarwaAshraf70/Nexcent-project#readme",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.2.2",
+    "tailwindcss": "^4.2.2"
+  },
+  "keywords": []
+}
