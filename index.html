@@ -7,9 +7,25 @@
     <title>Nexcent</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- 2. Import Inter Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                },
+            },
+        }
+    </script>
+
 </head>
 
-<body>
+<body class="font-sans">
     <div class=" ">
         <div class="bg-[#F5F7FA] w-full">
             <nav class="flex justify-between items-center  max-w-[1440px] mx-auto py-[30px] px-[105px]">
@@ -135,31 +151,30 @@
         <div class="w-full ">
             <div class="grid grid-cols-3 pt-4 gap-32 px-[144px] mx-auto max-w-[1440px] ">
                 <div
-                    class="flex justify-center items-center flex-col text-center p-6 shadow-[0px_2px_4px_0px_#ABBED133] rounded-md">
-                    <img src="./images/icoon.svg" alt="">
+                    class="flex justify-center items-center flex-col max-w-[299px] h-[260px] text-center py-[24px] shadow-[0px_2px_4px_0px_#ABBED133] rounded-md">
+                    <img src="./images/icoon.svg" alt="" class="px-[16px]">
                     <h2 class="text-[#4D4D4D] font-bold text-[28px] pt-4
 ">Membership Organisations</h2>
-                    <p class="text-sm font-normal text-[#717171] leading-5 pt-2 px-2
+                    <p class="text-sm font-normal text-[#717171] leading-5 px-[24px] pt-2 px-2
 
                ">Our membership management software provides full automation of membership renewals and
                         payments</p>
                 </div>
                 <div
-                    class="flex justify-center items-center flex-col text-center  p-6 shadow-[0px_2px_4px_0px_#ABBED133] rounded-md ">
-                    <img src="./images/Icon (1).svg" alt="">
-                    <h2 class="text-[#4D4D4D] font-bold text-[28px] pt-4
-             ">National Associations</h2>
-                    <p class="text-sm font-normal text-[#717171] leading-5 pt-2 px-4 
+                    class="flex justify-center items-center flex-col max-w-[299px] h-[260px] text-center py-[24px] shadow-[0px_2px_4px_0px_#ABBED133] rounded-md">
+                    <img src="./images/icoon.svg" alt="" class="px-[16px]">
+                    <h2 class="text-[#4D4D4D] font-bold text-[28px] px-[16px]
+                    ">National Associations</h2>
+                    <p class="text-sm font-normal text-[#717171] leading-5 px-[29px] pt-2 px-2
 
-            ">Our membership management software provides full automation of membership renewals and payments
-                    </p>
+               ">Our membership management software provides full automation of membership renewals and payments</p>
                 </div>
                 <div
-                    class="flex justify-center items-center flex-col text-center  p-8 shadow-[0px_2px_4px_0px_#ABBED133] rounded-md">
-                    <img src="./images/Icon (1).png" alt="">
-                    <h2 class="text-[#4D4D4D] font-bold text-[28px] pt-4
+                    class="flex justify-center items-center flex-col text-center max-w-[299px] h-[260px]  shadow-[0px_2px_4px_0px_#ABBED133] rounded-md py-[24px]">
+                    <img src="./images/Icon (1).png" alt="" class="px-[16px]">
+                    <h2 class="text-[#4D4D4D] text-[28px] font-[700] leading-[36px] max-w-[231px] px-[16px]
             ">Clubs And Groups</h2>
-                    <p class="text-sm font-normal text-[#717171] leading-5 pt-2
+                    <p class="text-sm font-normal px-[24px] text-[#717171] leading-5 pt-2
 
              ">Our membership management software provides full automation of membership renewals and payments</p>
                 </div>
@@ -171,16 +186,16 @@
 
                 <img src="./images/Frame 35.png" alt="" max-w-[442px] h-[433px] />
 
-                <div class="flex py-[82px] gap-[32px] max-w-[601px]">
+                <div class="flex py-[82px] gap-[32px] max-w-[661px]  ">
                     <div class=" flex flex-col gap-[16px]">
-                        <p class="text-[#4D4D4D] leading-[44px] font-[600] text-[36px]">
+                        <p class="text-[#4D4D4D] leading-[44px]  max-w-[601px] font-[600] text-[36px]">
                             The unseen of
                             spending three
                             years
                             at
                             Pixelgrade</p>
                         <p class="text-[#717171] font-[400]
-                 text-[16px] leading-[20px] ">Lorem ipsum dolor
+                 text-[16px] leading-[20px] max-w-[601px] ">Lorem ipsum dolor
                             sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est
                             varius
                             fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique
@@ -258,17 +273,17 @@
         </div>
 
         <div class="w-full ">
-            <div class="flex justify-center items-center mx-auto gap-[49px] max-w-[1440px]   ">
+            <div class="flex  justify-center items-center mx-auto gap-[49px] max-w-[1440px]   ">
                 <img src="./images/pana.png" alt="" class="my-[48px]" max-w-[442px] h-[433] />
-                <div class="flex flex-col gap-[32px]  max-w-[661px] h-[268px] ">
+                <div class="flex flex-col gap-[32px]  max-w-[661px]  ">
                     <div class=" flex flex-col gap-[16px] ">
-                        <p class="text-[#4D4D4D] leading-[44px] font-[600] text-[36px]">How
+                        <p class="text-[#4D4D4D] max-w-[601px] leading-[44px] font-[600] text-[36px]">How
                             to
                             design
                             your site footer like
                             <br /> we
                             did
-                        <p class="text-[#717171] font-[400] text-[14px]">
+                        <p class="text-[#717171] font-[400] text-[14px] max-w-[601px]">
                             Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt <br />
                             molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at
                             <br />
@@ -320,18 +335,18 @@
                     </div>
                     <div class="flex gap-[28px]  ">
                         <div class=" flex gap-[36px] ">
-                            <img src="./images/Logo1.png" alt="" class="w-[39px] h-[40px]" />
-                            <img src="./images/Logo2.png" alt="" class="w-[39px] h-[40px]" />
-                            <img src="./images/Logo3.png" alt="" class="w-[39px] h-[40px]" />
-                            <img src="./images/Logo4.png" alt="" class="w-[39px] h-[40px]" />
-                            <img src="./images/Logo5.png" alt="" class="w-[39px] h-[40px]" />
-                            <img src="./images/Logo6.png" alt="" class="[39px] h-[40px]" />
-                            <img src="./images/Logoseven.png" alt="" class="w-[39px] h-[40px]" />
+                            <img src="./images/Logo1.png" alt="" class="w-[38px] " />
+                            <img src="./images/Logo2.png" alt="" class="w-[38px] " />
+                            <img src="./images/Logo3.png" alt="" class="w-[38px] " />
+                            <img src="./images/Logo4.png" alt="" class="w-[38px] " />
+                            <img src="./images/Logo5.png" alt="" class="w-[38px] " />
+                            <img src="./images/Logo6.png" alt="" class="w-[38px]" />
+                            <img src="./images/Logoseven.png" alt="" class="w-[38px] " />
 
                         </div>
                         <div class="flex gap-[8px]">
                             <p
-                                class="text-[#4CAF4F] text-[20px] font-[600] leading-[28px] hover:underline hover:decoration-[#4CAF4F] underline-offset-4 transition duration-300 pt-[4px]  ">
+                                class="text-[#4CAF4F] text-[20px] font-[600] leading-[28px] hover:underline hover:decoration-[#4CAF4F] whitespace-nowrap underline-offset-4 transition duration-300 pt-[4px]  ">
                                 Meet all
                                 customers</p>
                             <img src="./images/vecter.svg" alt="" class="max-w-[12px]" />
@@ -360,7 +375,7 @@
                 <div class="relative ">
                     <img src="./images/image 18.png" alt="" max-w-[368px] w-full />
                     <div
-                        class=" mx-[25px]  text-center justify-center rounded-[8px] shadow-[0px_8px_16px_0px_#ABBED166] gap-[16px] h-[176px] bg-[#F5F7FA] absolute top-[190px] ">
+                        class=" mx-[25px]  text-center justify-center rounded-[8px] shadow-[0px_8px_16px_0px_#ABBED166] gap-[16px] h-[176px] bg-[#F5F7FA] absolute top-[190px] max-w-[317px] ">
 
                         <p class="font-[600] p-[16px] text-[20px] leading-[28px]  tracking-[0%]  text-[#717171]">
                             Creating
@@ -378,9 +393,9 @@
                 </div>
 
                 <div class="relative ">
-                    <img src="./images/image 18.png" alt="" max-w-[368px] w-full />
+                    <img src="./images/image 19.png" alt="" max-w-[368px] w-full />
                     <div
-                        class=" mx-[25px] text-center justify-center rounded-[8px] shadow-[0px_8px_16px_0px_#ABBED166] gap-[16px] h-[176px] bg-[#F5F7FA]  absolute top-[190px] ">
+                        class=" mx-[25px] text-center justify-center rounded-[8px] shadow-[0px_8px_16px_0px_#ABBED166] gap-[16px] h-[176px] max-w-[317px] bg-[#F5F7FA]  absolute top-[190px] ">
 
                         <p class="font-[600] p-[16px] text-[20px] leading-[28px]  tracking-[0%]  text-[#717171]">What
                             are
@@ -396,21 +411,19 @@
                     </div>
                 </div>
 
-                <div class="relative ">
-                    <img src="./images/image 18.png" alt="" max-w-[368px] w-full />
+                <div class="relative">
+                    <img src="./images/image 20.png" alt="" class="max-w-[368px] w-full" />
                     <div
-                        class=" mx-[25px] text-center justify-center   rounded-[8px] shadow-[0px_8px_16px_0px_#ABBED166]  h-[176px] gap-[16px] bg-[#F5F7FA]  absolute top-[190px] ">
+                        class=" mx-[25px]  text-center justify-center rounded-[8px] shadow-[0px_8px_16px_0px_#ABBED166] gap-[16px] h-[176px] bg-[#F5F7FA] absolute top-[190px] max-w-[317px] ">
 
-                        <p
-                            class="font-[600] text-[20px] py-[14px] px-[25px] leading-[28px] tracking-[0%]  text-[#717171]">
-                            Revamping the
-                            Membership Model with Triathlon Australia
+                        <p class="font-[600] p-[16px] text-[20px] leading-[28px]  tracking-[0%]  text-[#717171]">
+                            Revamping the Membership Model with Triathlon Australia
                         </p>
 
-                        <div class="flex items-center justify-center  gap-[8px] ">
+                        <div class="flex justify-center items-center gap-[8px]">
                             <button type="button"
-                                class="text-[20px] font-[600] leading-[28px] text-[#4CAF4F] hover:underline hover:decoration-[#4CAF4F] underline-offset-4 transition duration-300">Readmore</button>
-                            <img src=" ./images/Vector.svg" alt="" />
+                                class="text-[20px] font-[600] leading-[28px] text-[#4CAF4F]  hover:underline hover:decoration-[#4CAF4F] underline-offset-4 transition duration-300">Readmore</button>
+                            <img src="./images/Vector.svg" alt="" />
                         </div>
                     </div>
 
@@ -422,10 +435,10 @@
 
         <div class="w-full bg-[#F5F7FA]">
 
-            <div class="text-center  px-[276px]   mt-[130px] mx-auto max-w-[1440px] ">
-                <p
-                    class="text-[#263238]  py-[32px] text-[64px] font-[600] px-[32px] w-full leading-[76px] tracking-[0%]  text-center">
-                    Pellentesque suscipit fringilla libero eu.</p>
+            <div class="flex flex-col gap-[32px] py-[32px] mt-[130px] mx-auto  max-w-[1440px] w-full ">
+                <h1
+                    class="text-[#263238]  text-[64px] max-w-[887px]  font-[600]  w-full leading-[74px] tracking-[0%] text-center mx-auto  ">
+                    Pellentesque suscipit fringilla libero eu.</h1>
 
                 <div class="pb-[20px] gap-[8px] flex items-center justify-center text-center hover:text-white/70 ">
                     <button type="button" class="bg-[#4CAF4F]  flex justify-center items-center text-center text-white pl-[32px] pr-[18px] font-[500] text-[16px] leading-[24px] rounded-[4px] gap-[8px]   pl-[32px] pr-[23px] py-[14px]
